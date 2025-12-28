@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent } from "@testing-library/react-native";
-import RegistrationForm from "../src/RegistrationForm";
+import RegistrationForm from "../RegistrationForm";
 
 test("shows error when fields are empty", () => {
   const { getByText, getByTestId } = render(<RegistrationForm />);
