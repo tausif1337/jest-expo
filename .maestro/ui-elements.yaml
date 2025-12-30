@@ -1,0 +1,9 @@
+appId: com.tausif1337.jestexpo
+---
+- launchApp
+- assertVisible: "Create Account"
+- assertVisible: "Sign up to get started"
+- assertVisible: "Full Name"
+- assertVisible: "Email Address"
+- assertVisible: "Password"
+- assertVisible: "Register"

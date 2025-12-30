@@ -1,0 +1,12 @@
+appId: com.tausif1337.jestexpo
+---
+- launchApp
+- tapOn: "Full Name"
+- inputText: "Rahman Abdullah"
+- tapOn: "Email Address"
+- inputText: "rahman@example.com"
+- hideKeyboard
+- tapOn: "Password"
+- inputText: "Pass123"
+- hideKeyboard
+- tapOn: "Register"

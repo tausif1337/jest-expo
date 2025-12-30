@@ -1,0 +1,5 @@
+appId: com.tausif1337.jestexpo
+---
+- launchApp
+- tapOn: "Register"
+- assertVisible: "All fields are required"
