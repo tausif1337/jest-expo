@@ -1,4 +1,7 @@
+import React from 'react';
 import { render } from '@testing-library/react-native';
+import renderer from 'react-test-renderer';
+import { act } from 'react-test-renderer';
 import HomeScreen from '../HomeScreen';
 
 test('renders the Home Screen text', () => {
@@ -7,6 +10,10 @@ test('renders the Home Screen text', () => {
 });
 
 test('matches snapshot', () => {
-    const tree = render(<HomeScreen />).toJSON();
+    let component;
+    act(() => {
+        component = renderer.create(<HomeScreen />);
+    });
+    const tree = component.toJSON();
     expect(tree).toMatchSnapshot();
 });

@@ -1,8 +1,13 @@
 import React from "react";
 import renderer from "react-test-renderer";
+import { act } from 'react-test-renderer';
 import RegistrationForm from "../RegistrationForm";
 
 test("matches snapshot", () => {
-  const tree = renderer.create(<RegistrationForm />).toJSON();
+  let component;
+  act(() => {
+    component = renderer.create(<RegistrationForm />);
+  });
+  const tree = component.toJSON();
   expect(tree).toMatchSnapshot();
 });

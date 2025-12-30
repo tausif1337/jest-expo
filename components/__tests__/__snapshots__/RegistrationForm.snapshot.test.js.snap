@@ -1,3 +1,256 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`matches snapshot 1`] = `null`;
+exports[`matches snapshot 1`] = `
+<View
+  onLayout={[Function]}
+  style={
+    [
+      {
+        "backgroundColor": "#f5f5f5",
+        "flex": 1,
+      },
+      {
+        "paddingBottom": 0,
+      },
+    ]
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={
+      {
+        "flexGrow": 1,
+        "justifyContent": "center",
+        "paddingVertical": 20,
+      }
+    }
+    keyboardShouldPersistTaps="handled"
+  >
+    <View>
+      <View
+        style={
+          {
+            "backgroundColor": "#fff",
+            "borderRadius": 16,
+            "elevation": 5,
+            "marginHorizontal": 20,
+            "padding": 24,
+            "shadowColor": "#000",
+            "shadowOffset": {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.1,
+            "shadowRadius": 8,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#333",
+              "fontSize": 28,
+              "fontWeight": "bold",
+              "marginBottom": 8,
+              "textAlign": "center",
+            }
+          }
+        >
+          Create Account
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#666",
+              "fontSize": 16,
+              "marginBottom": 32,
+              "textAlign": "center",
+            }
+          }
+        >
+          Sign up to get started
+        </Text>
+        <View
+          style={
+            {
+              "marginBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#333",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "marginBottom": 8,
+              }
+            }
+          >
+            Full Name
+          </Text>
+          <TextInput
+            onChangeText={[Function]}
+            placeholder="Enter your name"
+            placeholderTextColor="#999"
+            style={
+              {
+                "backgroundColor": "#f9f9f9",
+                "borderColor": "#e0e0e0",
+                "borderRadius": 12,
+                "borderWidth": 1,
+                "color": "#333",
+                "fontSize": 16,
+                "paddingHorizontal": 16,
+                "paddingVertical": 14,
+              }
+            }
+            testID="name-input"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            {
+              "marginBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#333",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "marginBottom": 8,
+              }
+            }
+          >
+            Email Address
+          </Text>
+          <TextInput
+            autoCapitalize="none"
+            keyboardType="email-address"
+            onChangeText={[Function]}
+            placeholder="Enter your email"
+            placeholderTextColor="#999"
+            style={
+              {
+                "backgroundColor": "#f9f9f9",
+                "borderColor": "#e0e0e0",
+                "borderRadius": 12,
+                "borderWidth": 1,
+                "color": "#333",
+                "fontSize": 16,
+                "paddingHorizontal": 16,
+                "paddingVertical": 14,
+              }
+            }
+            testID="email-input"
+            value=""
+          />
+        </View>
+        <View
+          style={
+            {
+              "marginBottom": 20,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#333",
+                "fontSize": 14,
+                "fontWeight": "600",
+                "marginBottom": 8,
+              }
+            }
+          >
+            Password
+          </Text>
+          <TextInput
+            onChangeText={[Function]}
+            placeholder="Enter your password"
+            placeholderTextColor="#999"
+            secureTextEntry={true}
+            style={
+              {
+                "backgroundColor": "#f9f9f9",
+                "borderColor": "#e0e0e0",
+                "borderRadius": 12,
+                "borderWidth": 1,
+                "color": "#333",
+                "fontSize": 16,
+                "paddingHorizontal": 16,
+                "paddingVertical": 14,
+              }
+            }
+            testID="password-input"
+            value=""
+          />
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "#007AFF",
+              "borderRadius": 12,
+              "elevation": 6,
+              "justifyContent": "center",
+              "marginTop": 8,
+              "opacity": 1,
+              "paddingVertical": 16,
+              "shadowColor": "#007AFF",
+              "shadowOffset": {
+                "height": 4,
+                "width": 0,
+              },
+              "shadowOpacity": 0.3,
+              "shadowRadius": 8,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#fff",
+                "fontSize": 18,
+                "fontWeight": "600",
+              }
+            }
+          >
+            Register
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
