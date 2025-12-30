@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1767107111203" clover="3.2.0">
-  <project timestamp="1767107111203" name="All files">
-    <metrics statements="13" coveredstatements="13" conditionals="13" coveredconditionals="12" methods="4" coveredmethods="4" elements="30" coveredelements="29" complexity="0" loc="13" ncloc="13" packages="2" files="3" classes="3"/>
+<coverage generated="1767107446959" clover="3.2.0">
+  <project timestamp="1767107446959" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="13" coveredconditionals="12" methods="8" coveredmethods="8" elements="38" coveredelements="37" complexity="0" loc="17" ncloc="17" packages="3" files="4" classes="4"/>
     <package name="jest-expo">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="App.js" path="/Users/tausif/Codes/Ostad/react-native/jest-expo/App.js">
@@ -13,21 +13,31 @@
       <metrics statements="12" coveredstatements="12" conditionals="13" coveredconditionals="12" methods="3" coveredmethods="3"/>
       <file name="HomeScreen.js" path="/Users/tausif/Codes/Ostad/react-native/jest-expo/components/HomeScreen.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="20" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
+        <line num="4" count="22" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
       </file>
       <file name="RegistrationForm.js" path="/Users/tausif/Codes/Ostad/react-native/jest-expo/components/RegistrationForm.js">
         <metrics statements="10" coveredstatements="10" conditionals="13" coveredconditionals="12" methods="2" coveredmethods="2"/>
-        <line num="14" count="103" type="stmt"/>
-        <line num="15" count="103" type="stmt"/>
-        <line num="16" count="103" type="stmt"/>
-        <line num="17" count="103" type="stmt"/>
-        <line num="19" count="103" type="stmt"/>
-        <line num="20" count="24" type="cond" truecount="5" falsecount="0"/>
-        <line num="21" count="12" type="stmt"/>
-        <line num="23" count="12" type="stmt"/>
-        <line num="27" count="103" type="stmt"/>
-        <line num="115" count="2" type="stmt"/>
+        <line num="14" count="111" type="stmt"/>
+        <line num="15" count="111" type="stmt"/>
+        <line num="16" count="111" type="stmt"/>
+        <line num="17" count="111" type="stmt"/>
+        <line num="19" count="111" type="stmt"/>
+        <line num="20" count="26" type="cond" truecount="5" falsecount="0"/>
+        <line num="21" count="13" type="stmt"/>
+        <line num="23" count="13" type="stmt"/>
+        <line num="27" count="111" type="stmt"/>
+        <line num="115" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="jest-expo.utils">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="math.js" path="/Users/tausif/Codes/Ostad/react-native/jest-expo/utils/math.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
       </file>
     </package>
   </project>
